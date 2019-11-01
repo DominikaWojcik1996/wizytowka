@@ -7,13 +7,15 @@
 }
 
 #wrapper { 
-    width: 1300px;
+    max-width: 1300px;
+    margin: 0 auto 0 auto;
 }
 
 #main {
     background-image: url(Group\ 10.png);
-    background-size: cover;
+    background-size: auto;
     background-position:  center;
+    display:block;
     height: 548px;
     margin: 20px;
     box-sizing: border-box;
@@ -21,18 +23,14 @@
 
 .content {
     padding-top: 100px;
-    padding-left: 50px;
 }
 
-.tekst {
-    
+.tekst { 
 word-wrap:break-word;
 max-width: 450px;
 }
 
-.teksts {
 
-}
 
 .nav ul{
     display: flex;
@@ -87,10 +85,21 @@ position: left;
     font-weight: 600;
 }
 
+.tick {
+    width: 25px;
+}
 
 
 h1{
 
+}
+
+.square {
+
+width: 17px;
+height: 17px;
+left: 634px;
+top: 809px;
 }
 
 h2 {
@@ -103,10 +112,15 @@ font-style: normal;
 font-weight: bold;
 font-size: 34px;
 line-height: 22px;
+text-align: center;
 /* or 65% */
 
 
 color: #000000;
+}
+
+.cechy {
+    list-style: none;
 }
 
 h3 {
@@ -128,3 +142,19 @@ color: #000000;
 .main {
     padding: 20px;
 }
+
+.box {
+    width: 195;
+    height: 310;
+}
+
+.card-img-top {
+    width: 116px;
+
+}
+
+.card-text{
+word-wrap:break-word;
+max-width: 195px;
+}
+
