@@ -1,12 +1,98 @@
-.test{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
 }
 
-.opis { 
-    color: green;
+div { 
+    width: 1300px;
 }
 
-.foto { 
-    width:900px;
+.nav ul{
+    display: flex;
+background-color:white;
+list-style: none;
+}
+@media screen and (max-width: 700px) {
+    .nav ul {
+        flex-direction: column;
+    }
+}
+.nav li{
+    flex: 1 1 0;
+}
 
+img  {
+width: 744px;
+left: 619px;
+top: 109px;
+}
+
+.logo{ 
+    padding: 20px;
+    text-decoration:none;
+    background-color:white ;
+}
+
+.border { 
+    padding: 20px;
+    display: block;
+    text-decoration:none;
+    background-color:white;
+    text-align: center;
+    
+}
+
+.without  { 
+    display: block;
+    padding: 20px;
+    text-decoration:none;
+    background-color:white;
+    text-align: center;
+}
+
+.border:hover {
+    font-weight: 600;
+}
+
+.without:hover {
+    font-weight: 600;
+}
+
+h1{
+
+}
+
+h2 {
+width: 229px;
+height: 33px;
+left: calc(50% - 229px/2 + 53.5px);
+top: 805px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 22px;
+/* or 65% */
+
+
+color: #000000;
+}
+
+h3 {
+    width: 198px;
+height: 33px;
+left: calc(50% - 198px/2 + 56px);
+top: 1145px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 22px;
+/* or 85% */
+
+
+color: #000000;
 }
